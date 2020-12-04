@@ -1,0 +1,84 @@
+/*Map layer style*/
+body{
+	 margin: 0;
+}
+#mapid {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+ .custom-popup .leaflet-popup-content{
+	 max-width: 800px;
+ }
+
+.custom-popup .leaflet-popup-content-wrapper {
+	background:#ffffff;
+	color: black;
+	max-width: 350px;
+	/*
+	height: 400px;
+	text-align:right;*/
+  }
+
+.custom-popup .leaflet-popup-tip {
+	background:#ffffff;
+  }
+
+#popupLabel{
+	color: #000000;
+	font-size: 16px;
+	text-align: center;
+}
+
+#popupDesc{
+	color: #000000;
+	font-size: 12px;
+	padding-right: 10px;
+	width: 150px;
+}
+
+table#popupTable {
+	width: 100%;
+}
+
+table#popupTable {
+	width: 100%;
+}
+
+
+/* control panel icons */
+
+.icon {
+	display: inline-block;
+	margin: 2px;
+	height: 20px;
+	width: 20px;
+	background-color: #ccc;
+	background-size: cover;
+}
+.icon-leed {
+	background: url('MenuIcons/LEED.png');
+}
+.icon-garden {
+	background: url('MenuIcons/communityGarden.png');
+}
+.icon-evcs {
+	background: url('MenuIcons/ChargingStation.png');
+}
+.icon-drink {
+	background: url('MenuIcons/WaterBottle.png');
+}
+.icon-steam {
+	background: url('MenuIcons/PowerPlant.png');
+}
+.icon-education{
+	background: url('MenuIcons/Education.png');
+}
+.icon-bus{
+	background: url('MenuIcons/BusStops.png');
+}
+.icon-zipcar {
+	background: url('MenuIcons/Zipcar.png');
+}
