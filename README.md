@@ -1,4 +1,4 @@
-# SustainableClark
+# Clark University Sustainability Map
 
 <h2>What is this map for?</h2><br>
 The Sustainable Clark Map was created as a resource to help people learn about sustainability at Clark University.
