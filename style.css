@@ -1,0 +1,120 @@
+
+/* Styles for header primary nav */
+body{
+    margin: 0;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.layer1head{
+    background: #cc0000;
+    display: flex;
+    padding: 1em 2.5em;
+    color: white;
+    font-size: 0.9em;
+    font-weight: bolder;
+    overflow: hidden;
+    top: 0;
+    letter-spacing: 0.1em;
+}
+
+.layer2head{
+	display: flex;
+	padding: 0 2.5em ;
+	background: #efefef;
+}
+.layer3head a{
+	text-decoration: none;
+	color: #333333;
+}
+.logo{
+	float: left;
+	width: 25%;
+}
+
+.search{
+	float: right;
+	width:75%;
+}
+
+.search p{
+	float: right;
+	border: 2px solid #D7D7D7;
+    color: #8f8f8f;
+    background: white;
+	padding: 0.7em;
+}
+
+.layer3head{
+	display: flex;
+	border: thin solid #D7D7D7;
+	background: #efefef;
+	padding: 0 2.5em;
+	margin-bottom: 2em;
+	font-weight: bold;
+	letter-spacing: 0.01em;
+	color: #333333;
+	font-size: 1em;
+}
+#mapNav{
+	border-left: thin solid #D7D7D7;
+	padding: 1em;
+}
+#faqNav{
+	border-left: thin solid #D7D7D7;
+	padding: 1em;
+}
+#sourceNav{
+	border-right: thin solid #D7D7D7;
+	border-left: thin solid #D7D7D7;
+	padding: 1em;
+}
+
+/*main info style*/
+.mainTitle{
+	padding-left: 0.5em;
+	margin: 1em 2.5em;
+	border-left: medium solid #cc0000;
+	color: #333333;
+}
+
+.mapFrame {
+    width: 95%;
+	padding-left: 2.5em;
+	height: 700px;
+}
+.moreInfo{
+	color: #333333;
+	background: #fff;
+	padding: 0 2.5em 2.5em;
+}
+#fullScreen{
+	margin-top: 2em;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	width: 150px;
+	border: 2px solid #cc0000;
+	padding: 1em 1.5em;
+}
+#fsbtn{
+	text-decoration: none;
+	color:#cc0000;
+	font-weight: bold;
+	left:0;
+}
+/*footer style*/
+footer{
+	display: flex;
+	padding: 1em 2.5em;
+	background: #292929;
+	margin-top: 3em;
+	color: #f9f9f9;
+	bottom: 0;
+}
+.footerLink{
+	text-decoration: underline;
+	color: #f9f9f9;
+}
+.footerLink:hover{
+	color: #cc0000;
+}

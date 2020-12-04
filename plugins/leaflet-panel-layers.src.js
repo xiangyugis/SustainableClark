@@ -1,32 +1,3 @@
-/* 
- * Leaflet Panel Layers v1.2.2 - 2017-10-08 
- * 
- * Copyright 2017 Stefano Cudini 
- * stefano.cudini@gmail.com 
- * http://labs.easyblog.it/ 
- * 
- * Licensed under the MIT license. 
- * 
- * Demos: 
- * http://labs.easyblog.it/maps/leaflet-panel-layers/ 
- * 
- * Source: 
- * git@github.com:stefanocudini/leaflet-panel-layers.git 
- * 
- */
-/*
-	Name					Data passed		   Description
-
-	Managed Events:
-	 panel:selected			{layerDef}		   fired after moved and show markerLocation
-	 panel:unselected		{}			       fired after control was expanded
-
-	Public methods:
-	 addBaseLayer()			{panel item}       add new layer item definition to panel as baselayers
-	 addOverlay()           {panel item}       add new layer item definition to panel as overlay
-	 removeLayer()			{panel item}       remove layer item from panel
-	 configToControlLayers  {layerDef}         convert config from Control.PanelLayers to Control.Layers
-*/
 (function (factory) {
 if (typeof define === 'function' && define.amd) {
 	//AMD

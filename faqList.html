@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Clark Unversity Sustainability Map</title>
+<!-- map css (outside source) -->
+<link rel="stylesheet" href="leaflet/leaflet.css" type="text/css">
+</link>
+<!-- panel css (outside source with modification)-->
+<link rel="stylesheet" href="plugins/leaflet-panel-layers.src.css" type="text/css">
+</link>
+<!--import map api (outside source)-->
+<script src="leaflet/leaflet.js"></script>
+<script src="plugins/leaflet-panel-layers.src.js"></script>
+<!--JSON for map data-->
+<script src = "featureLayers/Leed.js"></script>
+<script src = "featureLayers/EVCS.js"></script>
+<script src = "featureLayers/BikeRepair.js"></script>
+<script src = "featureLayers/solar.js"></script>
+<script src = "featureLayers/CommunityGarden.js"></script>
+<script src = "featureLayers/xeriscaping.js"></script>
+<script src = "featureLayers/groundsMulch.js"></script>
+<script src = "featureLayers/HeatingCooling.js"></script>
+<script src = "featureLayers/RecyclingStations.js"></script>
+<script src = "featureLayers/WaterBottleStations.js"></script>
+<script src = "featureLayers/WilsonCreek.js"></script>
+<script src = "featureLayers/education.js"></script>
+<script src = "featureLayers/bikeRacks.js"></script>
+<script src = "featureLayers/TransitStops.js"></script>
+<script src = "featureLayers/bikeLaneUpdated.js"></script>
+<!--MY OWN CSS FILE-->
+<link rel="stylesheet" href="style.css" type="text/css">
+<!--MY OWN JS FILE!!!!!!!-->
+<script src = "script.js"></script>
+<script src = "faq&contact.js" defer></script>
+<style>
+#faqNav {
+    background: #ffffff;
+    border-top: medium solid #CC0001;
+}
+	.faqs{
+		padding: 0 2.5em;
+	}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <div class="layer1head">CLARK UNIVERSITY</div>
+  <div class="layer2head">
+    <div class="logo"><a href="https://www.clarku.edu/offices/campus-sustainability/" target="_blank"><img class="Logo" src="SClogo.png" alt="Sustainable Clark Office Logo" width="304px"></a></div>
+	  <div class="search">
+      <a href="https://www.clarku.edu/offices/campus-sustainability/search/?q=" target="_blank"><p>Search Clark University Website 🔎</p></a>
+    </div>
+  </div>
+  <div class="layer3head">
+    <div id="mapNav"><a href="index.html">Sustainable Map</a></div>
+    <div id="faqNav"><a href="faqList.html">FAQs &amp; Contact</a></div>
+    <div id="sourceNav"><a href="https://www.clarku.edu/offices/campus-sustainability/resources-and-partners/" target="_blank">More Resources</a></div>
+  </div>
+</header>
+
+<!--Title and info-->
+<div class="mainTitle">
+  <h1>Frequency Asked Questions</h1>
+</div>
+<div class="moreInfo"><br>
+
+  <h2>What is this map for?</h2>
+    <p>The Sustainable Clark Map was created as a resource to help people learn about sustainability at Clark University. </p>
+
+  <h2>Who created this map?</h2>
+    <p>This map was developed by Samuel Wen, an M.S student in the Geographic Information Science program, as the final project for IDCE 302 - Web Mapping &amp; Open Source GIS taught by Dr. Sharock Robert. If you have any question, please contact Samuel at <a href="mailto:xiwen@clarku.edu" target="_blank" style="color:#cc0000">xiwen@clarku.edu</a>.</p>
+	
+  <h2>Data Sources</h2>
+    <p>The data was provided by the <a href="https://www.clarku.edu/offices/campus-sustainability/" target="_blank" style="color:#cc0000">Office of Sustainable Clark</a>. Visit the website for more information.</p>
+ </div>
+
+<footer>Copyright © 2020&nbsp;<a class="footerLink" href="https://www.clarku.edu/">Clark University</a>&nbsp;|&nbsp;<a class="footerLink" href="https://www.clarku.edu/offices/campus-sustainability/">Sustainable Clark</a></footer>
+</body>
+</html>
