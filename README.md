@@ -1,6 +1,6 @@
 # SustainableClark
 
-What is this map for?
+What is this map for?<br>
 The Sustainable Clark Map was created as a resource to help people learn about sustainability at Clark University.
 
 Who created this map?
